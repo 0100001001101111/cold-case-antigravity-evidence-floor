@@ -1,0 +1,73 @@
+{
+  "authority_boundary": "This receipt verifies a local case card. It cannot revive a claim, clear private-first, publish, mail, commit, or push.",
+  "case_id": "OPS-01",
+  "checks": {
+    "core_matches_live_ledger": "PASS",
+    "declared_source_hashes": "PASS",
+    "frozen_live_file_and_ledger": "PASS",
+    "governed_annotations": "PASS",
+    "live_g23_closeouts": "PASS_OR_NOT_APPLICABLE",
+    "private_first_public_gate": "NOT_TRIGGERED",
+    "semantic_continuity": "V1_ACCEPTED_UNCHANGED"
+  },
+  "claim_authority": "NONE",
+  "decision_reasons": [
+    "The case stayed byte-identical to its accepted V1 card and all current custody checks pass."
+  ],
+  "disposition": "POSTABLE_AS_COLD_CASE",
+  "public_catalog_eligible": true,
+  "receipt_sha256": "9f3c8a635b0337a8fc9e879bb33b5cb65f949dfd12db34a4dbc17b91942d9333",
+  "route_id": "COLD_CASE_PIPELINE_CURRENT_INDEX_REVERIFICATION_V3",
+  "schema": "aletheia.cold-case-live-verification.v3",
+  "source_bindings": {
+    "case_file": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/cases/COLD_CASE_OPS-01.md",
+    "case_file_sha256": "15cb6c47c713f93762ea3497d62e273f23344ebf2cbeae94706e9a2830c9d81d",
+    "declared_sources": [
+      {
+        "declared_sha256": "d114d3a793c0d56fb978ac22f3c27e5f9a13147d934b753fe1d19b849ca8d052",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "d114d3a793c0d56fb978ac22f3c27e5f9a13147d934b753fe1d19b849ca8d052",
+        "path": "/Users/bo/data/adp/investigations/antigravity_propulsion_claims_2026-08-19/04_routes/Q11_BIEFELD_BROWN_VACUUM_PRESSURE_AUDIT/a11_repair_v3/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "2a3f4d163b893aad3d648d9b8a706f3d34e174d57d0053db5547c93c8312eed9",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "2a3f4d163b893aad3d648d9b8a706f3d34e174d57d0053db5547c93c8312eed9",
+        "path": "/Users/bo/data/adp/investigations/antigravity_propulsion_claims_2026-08-19/04_routes/Q9_PROPELLANTLESS_THRUST_COMPILED_TABLE/confirmation_v2/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "81e42ee85653cbcd39a12a5c747c745a2fa71d6a32c29305d1d20579356043f6",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "81e42ee85653cbcd39a12a5c747c745a2fa71d6a32c29305d1d20579356043f6",
+        "path": "/Users/bo/data/adp/investigations/antigravity_propulsion_claims_2026-08-19/04_routes/RUN_LESSON_CLOSEOUT.json"
+      },
+      {
+        "declared_sha256": "006768e825330624b69a2e03bba0881f03d6ade8e8019b9aee612f9169c29bca",
+        "g23_currency": "CURRENT_PASS",
+        "g23_failures": [],
+        "hash_matches": true,
+        "observed_sha256": "006768e825330624b69a2e03bba0881f03d6ade8e8019b9aee612f9169c29bca",
+        "path": "/Users/bo/data/adp/investigations/antigravity_propulsion_claims_2026-08-19/discovery_drift_audit_20260821/RUN_LESSON_CLOSEOUT.json"
+      }
+    ],
+    "ledger": "/Users/bo/data/adp/investigations/cold_case_sweep_2026-08-26/COLD_CASE_LEDGER.csv",
+    "ledger_row_sha256": "0ce79fe3fdd52032c2fae1712156636f5f19563e5dcc41d9dceb3f50ea22f0fa",
+    "ledger_sha256": "43f656121adc1a155d92f579711f8d98f623876d7d1ed0a2c82019c140c28afe",
+    "semantic_adjudication": {
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/09_live_reverification/LIVE_EDIT_SEMANTIC_ADJUDICATION_V2.md",
+      "sha256": "858787a6d4dcd7b10913735756bf3646fa3e731f7071c84f956f54aba34efa9c"
+    },
+    "v1_final_receipt": {
+      "bytes": 2045,
+      "path": "/Users/bo/data/adp/investigations/cold_case_pipeline_2026-08-26_v1/02_case_verification_final/OPS-01.json",
+      "sha256": "8b271582e74d83adbb846ca99c04f7bd9b7d7de832f8277f4a6117a91ac82a50"
+    }
+  },
+  "verdict": "ACCEPTED"
+}
